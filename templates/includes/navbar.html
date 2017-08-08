@@ -3,17 +3,24 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <style>
+.head{
+  font-size: 200px;
+  font-family: fantasy;
+  color: red;
+  margin-top: 30px;
+}
 
-.mymenu{margin-top: 20px;}
+
+.mymenu{margin-top:5px;}
 .mymenu .navbar-default{background: none;
 border: none;}
 @media(max-width: 1200px)
 {
   .mymenu .pull-right{float: none!important;}
 }
-#mynavbar .navbar-nav a {
+#mynavbar .navbar-nav a,  {
   font-size: 30px;
-    color: #272822;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -26,17 +33,13 @@ border: none;}
 .navbar .navbar-collapse {
   text-align: center;
 }
-
-
-
-
-
-.name{
-  color: #F1F1F1;
+.navc{
+  
   font-size: 40px;
-  padding-left: 40px;
-  padding-top: 10px;
 }
+
+
+
 /* visited link */
 
 
@@ -49,7 +52,7 @@ border: none;}
   <div class="row">
     <div class="col-xs-12">
       <center>
-        <img src="static/logof.png" class="img-responsive" height="200px" alt="logo">
+        <b class= "head">Friendship</b>
       </center>
     </div>
   </div>
@@ -68,15 +71,15 @@ border: none;}
     </div>
     <div class = "collapse navbar-collapse" id = "mynavbar">
 
-    <ul class = "nav navbar-nav  "> 
+    <ul class = "nav navbar-nav"> 
 
-      <li><a href="/">Home</a></li>
+      <li class="navc" ><a href="/">Home</a></li>
       
-      <li><a href="/articles">Quotes</a></li>
-      <li><a href="/add_article">Best Friendships</a></li>
-     <li><a href="/dashboard">About Friendship</a></li>
-     <li><a href="/add_article">Q/A</a></li>
-     <li><a href="/dashboard">Test</a></li>
+      <li class="navc" ><a href="/facts">Facts</a></li>
+     
+     <li class="navc"><a href="/aboutf">Celebration</a></li>
+     
+     <li class="navc"><a href="/qa">Q/A</a></li>
 
 
 

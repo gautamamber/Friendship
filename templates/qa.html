@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Friendship
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+</head>
+<style>
+.lab{
+	font-size: 30px;
+	color: green;
+
+}
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+	body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/purple_stars.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}
+</style>
+<body>
+{% include 'includes/navbar.html' %}
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<form action="" method="POST">
+			<label for="name" class="form_label lab">Name</label>
+                        <input type="text" id="name" name="name" class="form_label" placeholder="Your name.." required>
+                        <label for="name" class="form_label lab">Friend's Name</label>
+                        <input type="text" id="name" name="fname" class="form_label" placeholder="Your best friend's name.." required>
+                        <label for="name" class="form_label lab">Where did you meet your friend for the first time? </label>
+                        <input type="text" id="name" name="name" class="form_label" placeholder="Your name.." required>
+                        <label for="name" class="form_label lab">Ideal Gift for Friendship Day.</label>
+                        <input type="text" id="name" name="name" class="form_label" placeholder="Your name.." required>
+                        <label for="name" class="form_label lab"> Best way to celebrate Friendship Day</label>
+                        <input type="text" id="name" name="name" class="form_label" placeholder="Your name.." required>
+                        <label for="name" class="form_label lab"> Does your partner really have to be your best friend?</label>
+                        <input type="text" id="name" name="name" class="form_label" placeholder="Your name.." required>
+
+
+
+
+				
+      <label for="name" class="form_label lab">Write something about your friend.</label>
+                        <input type="text" id="name" name="spcl" class="form_label" placeholder="Your name.." required>
+                        <center class="form_label" ><input  type="submit" value="Done "></center>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
