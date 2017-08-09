@@ -14,6 +14,9 @@ def facts():
 @app.route('/aboutf')
 def aboutf():
     return render_template('aboutf.html')
+@app.route('/meter')
+def meter():
+    return render_template('meter.html')
 if __name__ == '__main__':
     app.secret_key='secret123'
     app.run(debug=True)
