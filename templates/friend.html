@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Friendship
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+	body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/purple_stars.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;}
+	.per{
+		color: #F1F1F1;
+		font-family: fantasy;
+		font-size: 90px;
+	}
+	.text{
+		color: #F1F1F1;
+		font-family: sans-serif;
+		font-size: 50px;
+	}
+	a {
+		color: red;
+	}
+</style>
+<body>
+	{% include 'includes/navbar.html' %}
+	<div class="container per">
+	 <div class="row">
+	 	<div class="col-sm-12">
+	 		<center><p class="meter"> {{ range(75,99) | random }}% </p></center>
+	 	</div>
+	 </div>
+</div>
+<hr>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<center><b class="text">True friends are those who came into your life, saw the most negative part of you, but are not ready to leave you, no matter how contagious you are to them.</b></center>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<center>
+				<a href="/back">Back</a>
+			</center>
+		</div>
+	</div>
+</div>
+</body>	
+</html>

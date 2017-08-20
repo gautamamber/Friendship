@@ -17,6 +17,15 @@ def aboutf():
 @app.route('/meter')
 def meter():
     return render_template('meter.html')
+@app.route('/friend', methods = ['POST'])
+def friend():
+	return render_template('qa.html')
+@app.route('/home', methods = ['POST'])
+def qas():
+	return render_template('home.html')
+@app.route('/back')
+def back():
+	return render_template('meter.html')
 if __name__ == '__main__':
     app.secret_key='secret123'
     app.run(debug=True)
